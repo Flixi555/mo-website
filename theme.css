@@ -48,8 +48,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; 
-  overflow-y: scroll; }
+  -webkit-tap-highlight-color: transparent; }
 
 @-ms-viewport {
   width: device-width; }
@@ -65,7 +64,8 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-  background-color: white; }
+  background-color: white;  
+  overflow-y: scroll; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
